@@ -24,7 +24,7 @@ const SmallBackgroundImage = ({
     //   {slice.variation}) Slices
     // </section>
     <div
-      className="max-w-[100px] absolute -z-10"
+      className="max-w-[150px] absolute -z-10"
       style={{
         top: slice.primary.top + "px",
         right: slice.primary.right + "px",
