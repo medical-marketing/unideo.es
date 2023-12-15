@@ -109,6 +109,17 @@ interface FooterDocumentData {
   terms_and_conditions_link: prismic.LinkField;
 
   /**
+   * Footer Text Color field in *Footer*
+   *
+   * - **Field Type**: Color
+   * - **Placeholder**: *None*
+   * - **API ID Path**: footer.footer_text_color
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#color
+   */
+  footer_text_color: prismic.ColorField;
+
+  /**
    * WhatsApp Link field in *Footer*
    *
    * - **Field Type**: Link

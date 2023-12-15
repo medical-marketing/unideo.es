@@ -63,6 +63,13 @@
           "select": null
         }
       },
+      "footer_text_color": {
+        "type": "Color",
+        "config": {
+          "label": "Footer Text Color",
+          "placeholder": ""
+        }
+      },
       "whatsapp_link": {
         "type": "Link",
         "config": {
