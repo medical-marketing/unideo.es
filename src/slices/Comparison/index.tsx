@@ -126,7 +126,7 @@ const Comparison = ({ slice }: ComparisonProps): JSX.Element => {
             ({ image_1, image_1_text, image_2, image_2_text }, index) => (
               <>
                 <div className="flex justify-around flex-wrap my-2">
-                  <div className="w-[50%] !max-w-fit px-3 md:px-4">
+                  <div className="w-[50%] !max-w-fit px-3 md:px-4 py-3 md:py-10">
                     <Card
                       isFooterBlurred
                       radius="none"
@@ -142,7 +142,7 @@ const Comparison = ({ slice }: ComparisonProps): JSX.Element => {
                       )}
                     </Card>
                   </div>
-                  <div className="w-[50%] !max-w-fit px-3 md:px-4">
+                  <div className="w-[50%] !max-w-fit px-3 md:px-4 py-3 md:py-10">
                     <Card
                       isFooterBlurred
                       radius="none"
