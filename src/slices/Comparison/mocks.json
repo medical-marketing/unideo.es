@@ -140,6 +140,22 @@
 							"__TYPE__": "ImageContent",
 							"thumbnails": {}
 						}
+					],
+					[
+						"image_1_text",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "does",
+							"type": "Text"
+						}
+					],
+					[
+						"image_2_text",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "left",
+							"type": "Text"
+						}
 					]
 				]
 			}

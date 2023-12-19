@@ -696,6 +696,16 @@ export interface ComparisonSliceDefaultItem {
   image_1: prismic.ImageField<never>;
 
   /**
+   * image_1_text field in *Comparison → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: comparison.items[].image_1_text
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  image_1_text: prismic.KeyTextField;
+
+  /**
    * Image 2 field in *Comparison → Items*
    *
    * - **Field Type**: Image
@@ -704,6 +714,16 @@ export interface ComparisonSliceDefaultItem {
    * - **Documentation**: https://prismic.io/docs/field#image
    */
   image_2: prismic.ImageField<never>;
+
+  /**
+   * image_2_text field in *Comparison → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: comparison.items[].image_2_text
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  image_2_text: prismic.KeyTextField;
 }
 
 /**

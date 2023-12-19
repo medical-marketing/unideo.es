@@ -97,12 +97,26 @@
             "thumbnails": []
           }
         },
+        "image_1_text": {
+          "type": "Text",
+          "config": {
+            "label": "image_1_text",
+            "placeholder": ""
+          }
+        },
         "image_2": {
           "type": "Image",
           "config": {
             "label": "Image 2",
             "constraint": {},
             "thumbnails": []
+          }
+        },
+        "image_2_text": {
+          "type": "Text",
+          "config": {
+            "label": "image_2_text",
+            "placeholder": ""
           }
         }
       }
